@@ -13,6 +13,6 @@ public class HelloController {
     @GetMapping
     public String sayHello() {
         System.out.println("hello!!");
-        return "222 Hello, World! 222";
+        return "This is Webhook test - Hello, World!";
     }
 }
